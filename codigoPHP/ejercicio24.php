@@ -86,7 +86,7 @@
 
                         $aRespuestas['nombre'] = $_POST['Inombre'];       // Añadir al campo nombre el valor enviado desde el formulario.
                         $aRespuestas['fecha'] = $_POST['fechaN'];         // Añadir al campo fecha el valor introducido en el formulario.
-                        $aRespuestas['sueldo'] = $_POST['sueldoS'];       // Añadir al campo sueldo el valor introducido en el formulario.
+                        $aRespuestas['sueldo'] = number_format($_POST['sueldoS'],2);       // Añadir al campo sueldo el valor introducido en el formulario.
 
                         // Recorremos el array de respuestas con un foreach para mostrar las respuestas.
 
