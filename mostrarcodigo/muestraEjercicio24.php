@@ -87,8 +87,8 @@
                                 <span>    //En caso de que el formulario haya sido rellenado de manera correcta.</span>
 
                                 <span style="color: blue">    $aRespuestas['nombre'] = $_POST['Inombre'];       // Añadir al campo nombre el valor enviado desde el formulario.</span>
-                                <span style="color: blue">    $aRespuestas['fecha'] = $_POST['fechaN'];         // Añadir al campo fecha el valor introducido en el formulario.</span>
-                                <span style="color: blue">    $aRespuestas['sueldo'] = $_POST['sueldoS'];       // Añadir al campo sueldo el valor introducido en el formulario.</span>
+                                <span style="color: blue">    $aRespuestas['fecha'] = new DateTime($_POST['fechaN']);         // Añadir al campo fecha el valor introducido en el formulario como DatTime.</span>
+                                <span style="color: blue">    $aRespuestas['sueldo'] = number_format(floatval(str_replace(',', '.', $_POST['sueldoS'])), 2, ',', '.').'$';       // Añadir al campo sueldo el valor introducido en el formulario formateado para que sea valido.</span>
 
                                 <span>    // Recorremos el array de respuestas con un foreach para mostrar las respuestas.</span>
 
