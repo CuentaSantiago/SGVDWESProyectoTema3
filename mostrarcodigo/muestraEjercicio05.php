@@ -27,8 +27,8 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                        <h3><span style="color: #007700">$timestamp</span><span style="color: #DD0000">= time();</span></h3>
-                        <h3><span style="color: #007700">echo "&lt;h3&gt;"&lt;h2&gt;Segundos: ",$timestamp,"&lt;/h2&gt;"&lt;/h3&gt;";</span></h3>
+                        <span style="color: #007700">$timestamp</span><span style="color: #DD0000">= time();</span>
+                        <span style="color: #007700">echo "&lt;h3&gt;"&lt;h2&gt;Segundos: ",$timestamp,"&lt;/h2&gt;"&lt;/h3&gt;";</span>
                     ?&gt;?>
                     &lt;/body&gt;
             &lt;/html&gt;

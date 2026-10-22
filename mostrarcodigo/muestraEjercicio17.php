@@ -27,40 +27,40 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                    <h3><span style="color: #007700">$teatro</span><span style="color: #DD0000"> = array_fill(0, 20, array_fill(0, 15, null));</span></h3>
-                    <h3><span style="color: #007700">$teatro[0][0]</span><span style="color: #DD0000"> = "Juan";</span></h3>
-                    <h3><span style="color: #007700">$teatro[0][1]</span><span style="color: #DD0000"> = "Ana";</span></h3>
-                    <h3><span style="color: #007700">$teatro[2][5]</span><span style="color: #DD0000"> = "Pedro";</span></h3>
-                    <h3><span style="color: #007700">$teatro[5][10]</span><span style="color: #DD0000"> = "Laura";</span></h3>
-                    <h3><span style="color: #007700">$teatro[10][7]</span><span style="color: #DD0000"> = "Carlos";</span></h3>
-                    <h3><span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2>Recorrido con FOREACH&lt;/h2>";</span></h3>
-                    <h3><span style="color: #007700">foreach</span><span style="color: #DD0000"> ($teatro as $fila => $asientos) {</span></h3>
-                        <h3><span style="color: #007700">foreach</span><span style="color: #DD0000"> ($asientos as $asiento => $persona) {</span></h3>
-                            <h3><span style="color: #007700">if</span><span style="color: #DD0000"> ($persona != null) {</span></h3>
-                                <h3><span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h3&gt;Fila " . ($fila + 1).", asiento ".($asiento + 1).": ".$persona."&lt;/h3&gt;&lt;br&gt;";</span></h3>
-                            <h3><span style="color: #007700">}</span></h3>
-                        <h3><span style="color: #007700">}</span></h3>
-                    <h3><span style="color: #007700">}</span></h3>
-                    <h3><span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2&gt;Recorrido con WHILE&lt;/h2&gt;";</span></h3>
-                    <h3><span style="color: #007700">$fila</span><span style="color: #DD0000"> = 0;</span></h3>
-                    <h3><span style="color: #007700">while</span><span style="color: #DD0000"> ($fila < 20) {</span></h3>
-                        <h3><span style="color: #007700">$asiento</span><span style="color: #DD0000"> = 0;</span></h3>
-                        <h3><span style="color: #007700">while</span><span style="color: #DD0000"> ($asiento < 15) {</span></h3>
-                            <h3><span style="color: #007700">if</span><span style="color: #DD0000"> ($teatro[$fila][$asiento] != null) {</span></h3>
-                                <h3><span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h3&gt;Fila ".($fila + 1).", asiento " . ($asiento + 1).": ".$teatro[$fila][$asiento]."&lt;/h3&gt;&lt;br&gt;";</span></h3>
-                            <h3><span style="color: #007700">}</span></h3>
-                            <h3><span style="color: #007700">$asiento++;</span></h3>
-                        <h3><span style="color: #007700">}</span></h3>
-                        <h3><span style="color: #007700">$fila++;</span></h3>
-                    <h3><span style="color: #007700">}</span></h3>
-                    <h3><span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2&gt;Recorrido con FOR&lt;/h2&gt;";</span></h3>
-                    <h3><span style="color: #007700">for</span><span style="color: #DD0000"> ($fila = 0; $fila < 20; $fila++) {</span></h3>
-                        <h3><span style="color: #007700">for</span><span style="color: #DD0000"> ($asiento = 0; $asiento < 15; $asiento++) {</span></h3>
-                            <h3><span style="color: #007700">if</span><span style="color: #DD0000"> ($teatro[$fila][$asiento] != null) {</span></h3>
-                                <h3><span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h3&gt;Fila ".($fila + 1).", asiento ".($asiento + 1).": ".$teatro[$fila][$asiento]."&lt;/h3&gt;&lt;br&gt;";</span></h3>
-                            <h3><span style="color: #007700">}</span></h3>
-                        <h3><span style="color: #007700">}</span></h3>
-                    <h3><span style="color: #007700">}</span></h3>
+                    <span style="color: #007700">$teatro</span><span style="color: #DD0000"> = array_fill(0, 20, array_fill(0, 15, null));</span>
+                    <span style="color: #007700">$teatro[0][0]</span><span style="color: #DD0000"> = "Juan";</span>
+                    <span style="color: #007700">$teatro[0][1]</span><span style="color: #DD0000"> = "Ana";</span>
+                    <span style="color: #007700">$teatro[2][5]</span><span style="color: #DD0000"> = "Pedro";</span>
+                    <span style="color: #007700">$teatro[5][10]</span><span style="color: #DD0000"> = "Laura";</span>
+                    <span style="color: #007700">$teatro[10][7]</span><span style="color: #DD0000"> = "Carlos";</span>
+                    <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2>Recorrido con FOREACH&lt;/h2>";</span>
+                    <span style="color: #007700">foreach</span><span style="color: #DD0000"> ($teatro as $fila => $asientos) {</span>
+                        <span style="color: #007700">foreach</span><span style="color: #DD0000"> ($asientos as $asiento => $persona) {</span>
+                            <span style="color: #007700">if</span><span style="color: #DD0000"> ($persona != null) {</span>
+                                <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h3&gt;Fila " . ($fila + 1).", asiento ".($asiento + 1).": ".$persona."&lt;/h3&gt;&lt;br&gt;";</span>
+                            <span style="color: #007700">}</span>
+                        <span style="color: #007700">}</span>
+                    <span style="color: #007700">}</span>
+                    <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2&gt;Recorrido con WHILE&lt;/h2&gt;";</span>
+                    <span style="color: #007700">$fila</span><span style="color: #DD0000"> = 0;</span>
+                    <span style="color: #007700">while</span><span style="color: #DD0000"> ($fila < 20) {</span>
+                        <span style="color: #007700">$asiento</span><span style="color: #DD0000"> = 0;</span>
+                        <span style="color: #007700">while</span><span style="color: #DD0000"> ($asiento < 15) {</span>
+                            <span style="color: #007700">if</span><span style="color: #DD0000"> ($teatro[$fila][$asiento] != null) {</span>
+                                <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h3&gt;Fila ".($fila + 1).", asiento " . ($asiento + 1).": ".$teatro[$fila][$asiento]."&lt;/h3&gt;&lt;br&gt;";</span>
+                            <span style="color: #007700">}</span>
+                            <span style="color: #007700">$asiento++;</span>
+                        <span style="color: #007700">}</span>
+                        <span style="color: #007700">$fila++;</span>
+                    <span style="color: #007700">}</span>
+                    <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2&gt;Recorrido con FOR&lt;/h2&gt;";</span>
+                    <span style="color: #007700">for</span><span style="color: #DD0000"> ($fila = 0; $fila < 20; $fila++) {</span>
+                        <span style="color: #007700">for</span><span style="color: #DD0000"> ($asiento = 0; $asiento < 15; $asiento++) {</span>
+                            <span style="color: #007700">if</span><span style="color: #DD0000"> ($teatro[$fila][$asiento] != null) {</span>
+                                <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h3&gt;Fila ".($fila + 1).", asiento ".($asiento + 1).": ".$teatro[$fila][$asiento]."&lt;/h3&gt;&lt;br&gt;";</span>
+                            <span style="color: #007700">}</span>
+                        <span style="color: #007700">}</span>
+                    <span style="color: #007700">}</span>
                 </blockquote>    &lt;/body&gt;
             &lt;/html&gt;
             </code>

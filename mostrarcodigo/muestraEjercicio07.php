@@ -27,7 +27,7 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                        <h3><span style="color: #007700">echo </span><span style="color: #DD0000">"&lt;h2&gt; ", basename("../ejercicio07.php"),"&lt;/h2&gt;";</span></h3>
+                        <span style="color: #007700">echo </span><span style="color: #DD0000">"&lt;h2&gt; ", basename("../ejercicio07.php"),"&lt;/h2&gt;";</span>
                     <span style="color: #0000BB">?&gt;</span>
                 </blockquote>
                     &lt;/body&gt;

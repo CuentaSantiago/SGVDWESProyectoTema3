@@ -27,13 +27,13 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                        <h3><span style="color: #007700">$superglobales </span><span style="color: #DD0000">= array('_SERVER'  => $_SERVER, '_GET'=> $_GET, '_POST'=> $_POST,'_FILES'=> $_FILES, '_COOKIE'=> $_COOKIE, '_SESSION'=> $_SESSION, '_ENV'=> $_ENV);</span></h3>
-                        <h3><span style="color: #007700">print_r</span><span style="color: #DD0000">("&lt;?h1&gt;print_r&lt;?/h1&gt;");</span></h3>
-                        <h3><span style="color: #DD0000">foreach($superglobales as $value=>$global){</span></h3>
-                        <h3><span style="color: #007700">echo</span><span style="color: #DD0000">$value."= ";</span></h3>
-                        <h3><span style="color: #007700">print_r</span><span style="color: #DD0000">($global);</span></h3>
-                        <h3><span style="color: #DD0000">echo("&lt;<br&gt;");</span></h3>
-                        <h3><span style="color: #DD0000">}</span></h3>
+                        <span style="color: #007700">$superglobales </span><span style="color: #DD0000">= array('_SERVER'  => $_SERVER, '_GET'=> $_GET, '_POST'=> $_POST,'_FILES'=> $_FILES, '_COOKIE'=> $_COOKIE, '_SESSION'=> $_SESSION, '_ENV'=> $_ENV);</span>
+                        <span style="color: #007700">print_r</span><span style="color: #DD0000">("&lt;?h1&gt;print_r&lt;?/h1&gt;");</span>
+                        <span style="color: #DD0000">foreach($superglobales as $value=>$global){</span>
+                        <span style="color: #007700">echo</span><span style="color: #DD0000">$value."= ";</span>
+                        <span style="color: #007700">print_r</span><span style="color: #DD0000">($global);</span>
+                        <span style="color: #DD0000">echo("&lt;<br&gt;");</span>
+                        <span style="color: #DD0000">}</span>
                     </span><span style="color: #0000BB">?&gt;</span>
                 </blockquote>    &lt;/body&gt;
             &lt;/html&gt;

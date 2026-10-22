@@ -27,9 +27,9 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                        <h3><span style="color: #007700">date_default_timezone_set</span><span style="color: #DD0000">("Europe/Madrid");</span></h3>
-                        <h3><span style="color: #007700">$fechaActual</span><span style="color: #DD0000">= new DateTime();</span></h3>
-                        <h3><span style="color: #007700">echo "<h3>",$fechaActual->format("d/m/y H:i:s"),"</h3>";</span></h3>
+                        <span style="color: #007700">date_default_timezone_set</span><span style="color: #DD0000">("Europe/Madrid");</span>
+                        <span style="color: #007700">$fechaActual</span><span style="color: #DD0000">= new DateTime();</span>
+                        <span style="color: #007700">echo "&lt;h3&gt;",$fechaActual->format("d/m/y H:i:s"),"&lt;/h3&gt;";</span>
                     ?&gt;?>
                     &lt;/body&gt;
             &lt;/html&gt;

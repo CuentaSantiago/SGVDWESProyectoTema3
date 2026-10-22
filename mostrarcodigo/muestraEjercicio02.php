@@ -27,11 +27,11 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                        <h3><span style="color: #007700">$partesHTMLBasicas</span><span style="color: #DD0000"> = <<< EOT</span></h3>
-                        <h3><span style="color: #DD0000">head: title,style,link, meta<br></span></h3>
-                        <h3><span style="color: #DD0000">Body: header, h1, h2, h3, h4, p, footer</span></h3>
-                        <h3><span style="color: #DD0000">EOT;</span></h3>
-                        <h3><span style="color: #007700">print_r($partesHTMLBasicas);</span></h3>
+                        <span style="color: #007700">$partesHTMLBasicas</span><span style="color: #DD0000"> = <<< EOT</span>
+                        <span style="color: #DD0000">head: title,style,link, meta<br></span>
+                        <span style="color: #DD0000">Body: header, h1, h2, h3, h4, p, footer</span>
+                        <span style="color: #DD0000">EOT;</span>
+                        <span style="color: #007700">print_r($partesHTMLBasicas);</span>
                     ?&gt;?>
                     </span> &lt;/body&gt;
             &lt;/html&gt;

@@ -27,15 +27,15 @@
                 &lt;body&gt;
                 <blockquote>
                     <span style="color: #0000BB">&lt;?php</span>
-                        print(" ");</span></h3>
-                        <h3><span style="color: #DD0000">}</span></h3>
-                        <h3><span style="color: #007700">$Semana </span><span style="color: #DD0000">= array("Lunes"=> 80, "Martes"=> 20, "Miercoles"=> 70, "Jueves"=> 80, "Viernes"=> 180, "Sabado"=> 80, "Domingo"=> 8);;</span></h3>
-                        <h3><span style="color: #007700">$total</span><span style="color: #DD0000"> =0;</span></h3>
-                        <h3><span style="color: #DD0000">foreach($Semana  as $dia => $pago){</span></h3>
-                        <h3><span style="color: #007700">print</span><span style="color: #DD0000"> "&lt;h3&gt;".$dia." recibe ".$pago."&lt;/h3&gt;&lt;br&gt;";</span></h3>
-                        <h3><span style="color: #DD0000">$total</span><span style="color: #DD0000">+=$pago;</span></h3>
-                        <h3><span style="color: #DD0000">}</span></h3>
-                        <h3><span style="color: #DD0000">print</span><span style="color: #DD0000"> "&lt;h3&gt;Pago total= ".$total."&lt;/h3&gt;"</span></h3>
+                        print(" ");</span>
+                        <span style="color: #DD0000">}</span>
+                        <span style="color: #007700">$Semana </span><span style="color: #DD0000">= array("Lunes"=> 80, "Martes"=> 20, "Miercoles"=> 70, "Jueves"=> 80, "Viernes"=> 180, "Sabado"=> 80, "Domingo"=> 8);;</span>
+                        <span style="color: #007700">$total</span><span style="color: #DD0000"> =0;</span>
+                        <span style="color: #DD0000">foreach($Semana  as $dia => $pago){</span>
+                        <span style="color: #007700">print</span><span style="color: #DD0000"> "&lt;h3&gt;".$dia." recibe ".$pago."&lt;/h3&gt;&lt;br&gt;";</span>
+                        <span style="color: #DD0000">$total</span><span style="color: #DD0000">+=$pago;</span>
+                        <span style="color: #DD0000">}</span>
+                        <span style="color: #DD0000">print</span><span style="color: #DD0000"> "&lt;h3&gt;Pago total= ".$total."&lt;/h3&gt;"</span>
                     </span><span style="color: #0000BB">?&gt;</span>
                 </blockquote>    &lt;/body&gt;
             &lt;/html&gt;
