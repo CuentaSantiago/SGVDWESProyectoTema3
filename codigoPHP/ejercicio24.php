@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ejercicio 23</title>
+        <title>Ejercicio 24</title>
         <style>
             input[type="text"],input[type="date"],input[type="number"]{ background-color: #fff9c4; }
             *{ margin: 0 auto; padding: 0 auto; }
@@ -28,7 +28,7 @@
     <body>
         <nav>
             <h2>DWES - Tema 3</h2>
-            <h2>Ejercicio 23</h2>
+            <h2>Ejercicio 24</h2>
         </nav>
         <main>
         <h1><a href='../indexProyectoTema3.php'>volver</a></h1>
@@ -63,12 +63,11 @@
                     if(isset($_POST["submit"])){
                         // Validamos los datos para cada campo del formulario.
                         $aRespuestas['nombre'] = $_POST['Inombre'] ?? '';
-                        $aRespuestas['fecha'] = new DateTime($_POST['fechaN']) ?? '';
+                        $aRespuestas['fecha'] = $_POST['fechaN']?? '';
                         $aRespuestas['sueldo'] = $_POST['sueldoS'] ?? '';
                         $aErrores['nombre'] = validacionFormularios::comprobarAlfabetico($aRespuestas['nombre'],100,0,1);
-                        $aErrores['fecha'] = validacionFormularios::validarFecha($aRespuestas['fecha']->format('d/m/Y'),"01/01/2027","01/01/1900", 1);
+                        $aErrores['fecha'] = validacionFormularios::validarFecha($aRespuestas['fecha'],"01/01/2027","01/01/1900", 1);
                         $aErrores['sueldo'] = validacionFormularios::comprobarFloat($aRespuestas['sueldo'], 10000, 0, 1);
-
                         // Recorremos el array de errores para comprobar si ha habido alguno.
                         // true: la variable booleana $entradaOk recibe el valor false.
                         foreach ($aErrores as $campo => $valor) {
@@ -85,8 +84,8 @@
                         //En caso de que el formulario haya sido rellenado de manera correcta.
 
                         $aRespuestas['nombre'] = $_POST['Inombre'];       // Añadir al campo nombre el valor enviado desde el formulario.
-                        $aRespuestas['fecha'] = new DateTime($_POST['fechaN']);         // Añadir al campo fecha el valor introducido en el formulario.
-                        $aRespuestas['sueldo'] = $_POST['sueldoS'];       // Añadir al campo sueldo el valor introducido en el formulario.
+                        $aRespuestas['fecha'] = new DateTime($_POST['fechaN']);         // Añadir al campo fecha el valor introducido en el formulario como DatTime.
+                        $aRespuestas['sueldo'] = number_format(floatval(str_replace(',', '.', $_POST['sueldoS'])), 2, ',', '.').'$';       // Añadir al campo sueldo el valor introducido en el formulario formateado para que sea valido.
 
                         // Recorremos el array de respuestas con un foreach para mostrar las respuestas.
 
