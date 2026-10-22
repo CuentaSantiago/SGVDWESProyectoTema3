@@ -63,10 +63,10 @@
                     if(isset($_POST["submit"])){
                         // Validamos los datos para cada campo del formulario.
                         $aRespuestas['nombre'] = $_POST['Inombre'] ?? '';
-                        $aRespuestas['fecha'] = $_POST['fechaN'] ?? '';
+                        $aRespuestas['fecha'] = new DateTime($_POST['fechaN']) ?? '';
                         $aRespuestas['sueldo'] = $_POST['sueldoS'] ?? '';
                         $aErrores['nombre'] = validacionFormularios::comprobarAlfabetico($aRespuestas['nombre'],100,0,1);
-                        $aErrores['fecha'] = validacionFormularios::validarFecha($aRespuestas['fecha'],"01/01/2027","01/01/1900", 1);
+                        $aErrores['fecha'] = validacionFormularios::validarFecha($aRespuestas['fecha']->format('d/m/Y'),"01/01/2027","01/01/1900", 1);
                         $aErrores['sueldo'] = validacionFormularios::comprobarFloat($aRespuestas['sueldo'], 10000, 0, 1);
 
                         // Recorremos el array de errores para comprobar si ha habido alguno.
@@ -85,13 +85,18 @@
                         //En caso de que el formulario haya sido rellenado de manera correcta.
 
                         $aRespuestas['nombre'] = $_POST['Inombre'];       // Añadir al campo nombre el valor enviado desde el formulario.
-                        $aRespuestas['fecha'] = $_POST['fechaN'];         // Añadir al campo fecha el valor introducido en el formulario.
+                        $aRespuestas['fecha'] = new DateTime($_POST['fechaN']);         // Añadir al campo fecha el valor introducido en el formulario.
                         $aRespuestas['sueldo'] = $_POST['sueldoS'];       // Añadir al campo sueldo el valor introducido en el formulario.
 
                         // Recorremos el array de respuestas con un foreach para mostrar las respuestas.
 
                         foreach ($aRespuestas as $campo => $valor) {
-                            print("<p>Su $campo es: ".$valor."</p><br>");
+                            if($campo=='fecha'){
+                                print("<p>Su $campo es: ".$valor->format('d/m/Y')."</p><br>");
+                            }
+                            else{
+                                print("<p>Su $campo es: ".$valor."</p><br>");
+                            }
                         }
                     } else{
                 ?>
