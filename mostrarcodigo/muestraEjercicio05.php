@@ -26,10 +26,10 @@
                 &lt;/head&gt;
                 &lt;body&gt;
                 <blockquote>
-                    <span style="color: #0000BB">&lt;?php</span>
-                        <span style="color: #007700">$timestamp</span><span style="color: #DD0000">= time();</span>
-                        <span style="color: #007700">echo "&lt;h3&gt;"&lt;h2&gt;Segundos: ",$timestamp,"&lt;/h2&gt;"&lt;/h3&gt;";</span>
-                    ?&gt;?>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio05.php");
+                    ?>
+                </blockquote>
                     &lt;/body&gt;
             &lt;/html&gt;
             </code>

@@ -26,13 +26,10 @@
                 &lt;/head&gt;
                 &lt;body&gt;
                 <blockquote>
-                    <span style="color: #0000BB">&lt;?php</span>
-                        <span style="color: #007700">$partesHTMLBasicas</span><span style="color: #DD0000"> = <<< EOT</span>
-                        <span style="color: #DD0000">head: title,style,link, meta<br></span>
-                        <span style="color: #DD0000">Body: header, h1, h2, h3, h4, p, footer</span>
-                        <span style="color: #DD0000">EOT;</span>
-                        <span style="color: #007700">print_r($partesHTMLBasicas);</span>
-                    ?&gt;?>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio02.php");
+                    ?>
+                </blockquote>
                     </span> &lt;/body&gt;
             &lt;/html&gt;
             </code>

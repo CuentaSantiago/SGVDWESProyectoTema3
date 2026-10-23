@@ -30,17 +30,11 @@
                         &lt;h3&gt;Curso&lt;/h3&gt;&lt;input type="text" id="cur" name="Curso"/&gt;&lt;br&gt;
                         &lt;input type="submit" id="enviar"/&gt;
                     &lt;/form&gt;
-                    <span style="color: #0000BB">&lt;?php{</span>
-                        <span style="color: #007700">if (isset($_REQUEST['submit']))</span><span style="color: #DD0000">{</span>
-                        <span style="color: #007700">$Nombre</span><span style="color: #DD0000">= $_REQUEST['Nombre'];</span>
-                        <span style="color: #007700">$Curso</span><span style="color: #DD0000">= $_REQUEST['Curso'];</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">'&lt;div&gt;'</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;h4&gt;Nombre:". $Nombre."&lt;/h4&gt;&lt;br;&lt";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;h4&gt;Curso:". $Curso."&lt;/h4&gt;&lt;br;&lt";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">'&lt;/div&gt;'</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;br&gt;&lt;a href='" . $_SERVER['PHP_SELF'] . "'&gt;⬅ Rellenar otro formulario&lt;/a&gt;";
-                        }
-                    ?>
+                    <blockquote>
+                        <?php
+                            highlight_file("../codigoPHP/ejercicio22.php");
+                        ?>
+                    </blockquote>
                 &lt;/body&gt;
             &lt;/html&gt;
             </code>

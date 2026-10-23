@@ -25,17 +25,11 @@
                     &lt;title&gt;&lt;/title&gt;
                 &lt;/head&gt;
                 &lt;body&gt;
+                
                 <blockquote>
-                    <span style="color: #0000BB">&lt;?php</span>
-                        <span style="color: #007700">date_default_timezone_set("Europe/Madrid");</span>
-                        <span style="color: #007700">$fechaActual</span><span style="color: #DD0000"> = new DateTime();</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000"> "&lt;h2&gt;Operaciones con fechas&lt;/h2&gt;";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000"> "Fecha actual: " . $fechaActual-&gt;format('d/m/Y') . "&lt;br&gt;";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000"> "Día de la semana: ".$fechaActual-&gt;format('l')."&lt;br&gt;";</span>
-                        <span style="color: #007700">$fechaFutura</span><span style="color: #DD0000"> = $fechaActual-&gt;modify('+60 days');</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000"> "Fecha dentro de 60 días: ".$fechaFutura-&gt;format('d/m/Y')."&lt;br&gt;";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000"> "Día de la semana: ".$fechaFutura-&gt;format('l')."&lt;br&gt;";</span>
-                    <span style="color: #0000BB">?&gt;</span>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio06.php");
+                    ?>
                 </blockquote>
                     &lt;/body&gt;
             &lt;/html&gt;

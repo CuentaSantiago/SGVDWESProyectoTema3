@@ -97,7 +97,7 @@
                                 print("<p>Su $campo es: ".$valor."</p><br>");
                             }
                         }
-                    } else{
+                    } else{ 
                 ?>
                 
                 <!-- Mostrar formulario -->

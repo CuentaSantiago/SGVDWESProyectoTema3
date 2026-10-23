@@ -44,17 +44,11 @@
                     &lt;title&gt;&lt;/title&gt;
                 &lt;/head&gt;
                 &lt;body&gt;
-                    <span style="color: #0000BB">&lt;?php</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;a href='ejercicio21.php'&lt;⬅ Volver al formulario&lt;/a&lt;&lt;br&lt;";</span>
-                        <span style="color: #007700">$Nombre</span><span style="color: #DD0000">= $_POST['Nombre'];</span>
-                        <span style="color: #007700">$F_Nacimiento</span><span style="color: #DD0000">= $_POST['F_N'];</span>
-                        <span style="color: #007700">$Curso</span><span style="color: #DD0000">= $_POST['Curso'];</span>
-                        <span style="color: #007700">$Asignatura</span><span style="color: #DD0000">= $_POST['Asignatura'];</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;h4&gt;Nombre:". $Nombre."&lt;/h4&gt;&lt;br;&lt";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;h4&gt;Fecha Nacimiento:". $F_Nacimiento."&lt;/h4&gt;&lt;br;&lt";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;h4&gt;Curso:". $Curso."&lt;/h4&gt;&lt;br;&lt";</span>
-                        <span style="color: #007700">echo</span><span style="color: #DD0000">"&lt;h4&gt;Asignatura:". $Asignatura."&lt;/h4&gt&lt;br;&lt";</span>
-                    <span style="color: #0000BB">?&gt;</span>
+                <blockquote>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio21.php");
+                    ?>
+                </blockquote>
                 &lt;/body&gt;
             &lt;/html&gt;
             </code>

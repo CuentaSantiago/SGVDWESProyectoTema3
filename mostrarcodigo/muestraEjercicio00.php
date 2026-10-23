@@ -26,11 +26,9 @@
                 &lt;/head&gt;
                 &lt;body&gt;
                 <blockquote>
-                    <span style="color: #0000BB">&lt;?php</span>
-                    <span style="color: #007700">echo(</span><span style="color: #DD0000">"Hola mundo&lt;br&gt;"</span><span style="color: #007700">);
-                    echo </span><span style="color: #DD0000">"&lt;a href='../indexProyectoTema3.php'&gt;⬅ Volver al inicio&lt;/a&gt;"</span><span style="color: #007700">;
-                    </span><span style="color: #0000BB">phpinfo</span><span style="color: #007700">();
-                    </span><span style="color: #0000BB">?&gt;</span>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio00.php");
+                    ?>
                 </blockquote>    &lt;/body&gt;
             &lt;/html&gt;
             </code>

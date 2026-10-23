@@ -26,37 +26,10 @@
                 &lt;/head&gt;
                 &lt;body&gt;
                 <blockquote>
-                    <span style="color: #0000BB">&lt;?php</span></span>
-                    <span style="color: #007700">$VariableString</span><span style="color: #DD0000">="Variable String";</span>
-                        <span style="color: #007700">$VariableBoolean</span><span style="color: #DD0000">=true;</span>
-                        <span style="color: #007700">$VariableInteger</span><span style="color: #DD0000">=10;</span>
-                        <span style="color: #007700">$VariableFloat</span><span style="color: #DD0000">=10.5;</span>
-                        <span style="color: #007700">echo "</span><span style="color: #DD0000">echo";</span>
-                        <span style="color: #007700">echo "</span><span style="color: #DD0000">La variable String ".'$VariableString'." contiene $VariableString";</span>
-                        <span style="color: #007700">echo "</span><span style="color: #DD0000">La variable Int ".'$VariableInteger'." contiene $VariableInteger";</span>
-                        <span style="color: #007700">echo "</span><span style="color: #DD0000">La variable Float ".'$VariableFloat'." contiene $VariableFloat";</span>
-                        <span style="color: #007700">echo "</span><span style="color: #DD0000">La variable Boolean ".'$VariableBoolean'." contiene $VariableBoolean";</span>
-                        <span style="color: #007700">print("</span><span style="color: #DD0000">print");</span>
-                        <span style="color: #007700">print("</span><span style="color: #DD0000">La variable String ".'$VariableString'." contiene $VariableString");</span>
-                        <span style="color: #007700">print("</span><span style="color: #DD0000">La variable Int ".'$VariableInteger'." contiene $VariableInteger");</span>
-                        <span style="color: #007700">print("</span><span style="color: #DD0000">La variable Float ".'$VariableFloat'." contiene $VariableFloat");</span>
-                        <span style="color: #007700">print("</span><span style="color: #DD0000">La variable Boolean ".'$VariableBoolean'." contiene $VariableBoolean");</span>
-                        <span style="color: #007700">printf(</span>"<span style="color: #DD0000">printf") ;</span>
-                        <span style="color: #007700">printf(</span>"<span style="color: #DD0000">La variable String ".'$VariableString'." contiene $VariableString");</span>
-                        <span style="color: #007700">printf(</span>"<span style="color: #DD0000">La variable Int ".'$VariableInteger'." contiene $VariableInteger");</span>
-                        <span style="color: #007700">printf(</span>"<span style="color: #DD0000">La variable Float ".'$VariableFloat'." contiene $VariableFloat");</span>
-                        <span style="color: #007700">printf(</span>"<span style="color: #DD0000">La variable Boolean ".'$VariableBoolean'." contiene $VariableBoolean");</span>
-                        <span style="color: #007700">sprintf("</span><span style="color: #DD0000">sprintf");</span>
-                        <span style="color: #007700">sprintf("</span><span style="color: #DD0000">La variable String ".'$VariableString'." contiene $VariableString");</span>
-                        <span style="color: #007700">sprintf("</span><span style="color: #DD0000">La variable Int ".'$VariableInteger'." contiene $VariableInteger");</span>
-                        <span style="color: #007700">sprintf("</span><span style="color: #DD0000">La variable Float ".'$VariableFloat'." contiene $VariableFloat");</span>
-                        <span style="color: #007700">sprintf("</span><span style="color: #DD0000">La variable Boolean ".'$VariableBoolean'." contiene $VariableBoolean");</span>
-                        <span style="color: #007700">print_r("</span><span style="color: #DD0000">print_r");</span>
-                        <span style="color: #007700">print_r("</span><span style="color: #DD0000">La variable String ".'$VariableString'." contiene $VariableString");</span>
-                        <span style="color: #007700">print_r("</span><span style="color: #DD0000">La variable Int ".'$VariableInteger'." contiene $VariableInteger");</span>
-                        <span style="color: #007700">print_r("</span><span style="color: #DD0000">La variable Float ".'$VariableFloat'." contiene $VariableFloat");</span>
-                        <span style="color: #007700">print_r("</span><span style="color: #DD0000">La variable Boolean ".'$VariableBoolean'." contiene $VariableBoolean");</span>
-                    <span style="color: #0000BB">?&gt;</span>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio01.php");
+                    ?>
+                </blockquote>
                     </span> &lt;/body&gt;
             &lt;/html&gt;
             </code>
