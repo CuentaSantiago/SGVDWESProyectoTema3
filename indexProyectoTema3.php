@@ -82,6 +82,18 @@
                     <td><a href="mostrarcodigo/muestraEjercicio08.php">Codigo</a></td>
                 </tr>
                 <tr>
+                    <td>9</td>
+                    <td>Mostrar el path donde se encuentra el fichero que se está ejecutando.</td>
+                    <td><a href="codigoPHP/ejercicio09.php">Ejecutar</a></td>
+                    <td><a href="mostrarcodigo/muestraEjercicio09.php">Codigo</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Mostrar el contenido del fichero que se está ejecutando</td>
+                    <td><a href="codigoPHP/ejercicio10.php">Ejecutar</a></td>
+                    <td><a href="mostrarcodigo/muestraEjercicio10.php">Codigo</a></td>
+                </tr>
+                <tr>
                     <td>12</td>
                     <td>Mostrar el contenido de las variables superglobales (utilizando print_r() y foreach()).</td>
                     <td><a href="codigoPHP/ejercicio12.php">Ejecutar</a></td>
