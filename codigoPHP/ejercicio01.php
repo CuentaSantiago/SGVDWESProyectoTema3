@@ -8,6 +8,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="webroot/css/estilos.css">
 <!--       <link rel="shortcut icon" type="image/jpg" href="webroot/favicon/favicon.ico">-->
         <title>Santiago González Vicente</title>
     </head>

@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="webroot/css/estilos.css">
         <title>Ejercicio 23</title>
         <style>
             input[type="text"],input[type="date"],input[type="number"]{ background-color: #fff9c4; }

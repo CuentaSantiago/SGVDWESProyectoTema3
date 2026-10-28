@@ -4,26 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ejercicio 24</title>
-        <style>
-            input[type="text"],input[type="date"],input[type="number"]{ background-color: #fff9c4; }
-            *{ margin: 0 auto; padding: 0 auto; }
-            nav{ background-color: black; color: white; }
-            span{ color: red; }
-            .ejercicio{
-                padding: 50px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 1150px;
-                border: 1px solid black;
-                border-radius: 10px;
-                p { font-weight: bold; }
-            }
-            footer{
-                background-color: black; text-align: center; align-content: center;
-                height: 50px; color: white; margin-top: 20%;
-                & div a{ color: white; text-decoration: none; }
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="webroot/css/estilos.css">
     </head>
     <body>
         <nav>
