@@ -55,7 +55,7 @@
                     <td>4</td>
                     <td>Mostrar en tu página index la fecha y hora actual en Oporto formateada en portugués.</td>
                     <td><a href="codigoPHP/ejercicio04.php">Ejecutar</a></td>
-                    <td><a href="mostrarcodigo/muestraEjercicio05.php">Codigo</a></td>
+                    <td><a href="mostrarcodigo/muestraEjercicio04.php">Codigo</a></td>
                 </tr>
                 <tr>
                     <td>5</td>
