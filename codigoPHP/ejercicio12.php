@@ -15,13 +15,18 @@
     <body>
         <h2><a href='../indexProyectoTema3.php'>volver</a></h2>
         <?php
-        $superglobales = array('_SERVER'  => $_SERVER, '_GET'=> $_GET, '_POST'=> $_POST,'_FILES'=> $_FILES, '_COOKIE'=> $_COOKIE, '_SESSION'=> $_SESSION, '_ENV'=> $_ENV);
-        print_r("<h1>print_r</h1>");
-        foreach($superglobales as $value=>$global){
-            echo $value."= ";
-            print_r($global);
-            echo ("<br>");
+        echo "<h2>Variable superglobal _SERVER formateada con print_r</h2><br>";
+
+        print_r($_SERVER);
+
+        echo "<br>";
+
+        echo "<h2>Recorrido con un foreach()</h2><br>";
+        echo "<ul>";
+        foreach ($_SERVER as $key => $value) {
+            echo "<li>$key contiene $value </li>";
         }
+        echo "</ul>";
         ?>
         <footer>
             <p><time datetime="2026-09-14">2026-2027</time> IES LOS SAUCES. ©Todos los derechos reservados</p>
